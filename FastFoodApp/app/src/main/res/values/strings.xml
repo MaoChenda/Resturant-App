@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fast Food App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="res_name">FAST FOOD RESTURANT</string>
+    <string name="res_subtitile">Fast Deliver, Good Service, Enjoy Your Day</string>
+    <string name="night_mode_hint">
+        Once your switch is on, your app backgroun will trun into black backgound.
+    </string>
+    <string name="languages_hint">
+        You can change your language into Khmer or English.
+    </string>
+    <string name="notifications_hint">
+         Once your switch is on, your app will not receives any notifications anymore.
+    </string>
+    <string name="play_intro_hint">
+        Click here to show a brief introduction to our application.
+    </string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="googlemap_api_key">AIzaSyBEolCVZ_lFpWHYVzNyEJLm6qrPnguMQzI</string>
+
+</resources>

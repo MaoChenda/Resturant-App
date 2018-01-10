@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="@drawable/border_bottom_yellow"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/location_img"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/circlebackgroundyellow"
+        android:src="@drawable/ic_location_on_black_24dp"/>
+
+    <TextView
+        android:id="@+id/location_branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/location_img"
+        android:textStyle="bold"
+        android:text="Location" />
+    <TextView
+        android:id="@+id/location_branch_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/location_img"
+        android:text="Location Subtitle" />
+    <TextView
+        android:id="@+id/location_branch_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/location_img"
+        android:text="+855 77 223 332" />
+
+</RelativeLayout>
